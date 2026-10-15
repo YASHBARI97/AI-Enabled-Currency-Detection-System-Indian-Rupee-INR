@@ -1,0 +1,12 @@
+{
+  "config": {
+    "experiment": "baseline_hsv_svm",
+    "backend": "sklearn",
+    "seed": 42,
+    "img_size": 224,
+    "svm_C": 10.0,
+    "model_version": "0.1.0-baseline"
+  },
+  "val_accuracy": 0.6569832402234637,
+  "val_macro_f1": 0.6567397948177746
+}

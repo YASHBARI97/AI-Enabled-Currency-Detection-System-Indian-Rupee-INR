@@ -1,0 +1,15 @@
+{
+  "backend": "sklearn",
+  "class_names": [
+    "INR_10",
+    "INR_100",
+    "INR_20",
+    "INR_200",
+    "INR_50",
+    "INR_500"
+  ],
+  "img_size": 224,
+  "threshold": 0.5,
+  "model_version": "0.1.0-baseline",
+  "experiment": "baseline_hsv_svm"
+}

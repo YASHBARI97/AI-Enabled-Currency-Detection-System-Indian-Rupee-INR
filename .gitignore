@@ -1,0 +1,46 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+frontend/.env.local
+frontend/.env.*.local
+!frontend/.env.local.example
+
+# Node.js / Next.js generated files
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# Datasets and generated split manifests (do not upload banknote images)
+data/
+
+# Trained model binaries and local experiment output
+*.pt
+*.pth
+*.joblib
+*.ckpt
+*.onnx
+reports/groups.csv
+reports/errors_*.csv
+reports/coverage_curve_*.csv
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project documentation is being kept out of the GitHub repository
+/docs/

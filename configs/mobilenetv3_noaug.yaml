@@ -1,0 +1,16 @@
+# Ablation: same as mobilenetv3_small but with augmentation nearly disabled
+experiment: mobilenetv3_small_224_minimal_aug
+backend: torch
+arch: mobilenet_v3_small
+pretrained: true
+seed: 42
+img_size: 224
+batch_size: 32
+epochs: 25
+lr: 0.0005
+weight_decay: 0.0001
+optimizer: adamw
+early_stopping_patience: 5
+num_workers: 2
+model_version: "1.0.0-noaug"
+augmentation: {rotation_deg: 0, crop_scale: [1.0, 1.0], brightness: 0.0, contrast: 0.0, saturation: 0.0, blur: false}

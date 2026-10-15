@@ -1,0 +1,15 @@
+experiment: mobilenetv3_small_224
+backend: torch
+arch: mobilenet_v3_small
+pretrained: true
+seed: 42
+img_size: 224
+batch_size: 32
+epochs: 25
+lr: 0.0005
+weight_decay: 0.0001
+optimizer: adamw
+early_stopping_patience: 5
+num_workers: 2
+model_version: "1.0.0"
+augmentation: {rotation_deg: 15, crop_scale: [0.8, 1.0], brightness: 0.3, contrast: 0.3, saturation: 0.1, blur: true}

@@ -1,0 +1,6 @@
+experiment: baseline_hsv_svm
+backend: sklearn
+seed: 42
+img_size: 224
+svm_C: 10.0
+model_version: "0.1.0-baseline"

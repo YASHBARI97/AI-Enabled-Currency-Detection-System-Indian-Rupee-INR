@@ -1,0 +1,45 @@
+{
+  "total_images": 6252,
+  "removed_unreadable": [],
+  "per_class": {
+    "INR_50": 1282,
+    "INR_20": 1192,
+    "INR_500": 1191,
+    "INR_100": 1155,
+    "INR_200": 999,
+    "INR_10": 433
+  },
+  "per_split_class": {
+    "INR_10": {
+      "test": 62,
+      "train": 309,
+      "val": 62
+    },
+    "INR_100": {
+      "test": 165,
+      "train": 825,
+      "val": 165
+    },
+    "INR_20": {
+      "test": 170,
+      "train": 852,
+      "val": 170
+    },
+    "INR_200": {
+      "test": 144,
+      "train": 711,
+      "val": 144
+    },
+    "INR_50": {
+      "test": 184,
+      "train": 915,
+      "val": 183
+    },
+    "INR_500": {
+      "test": 168,
+      "train": 852,
+      "val": 171
+    }
+  },
+  "n_groups": 2394
+}
