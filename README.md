@@ -1,3 +1,5 @@
+For Readable Preview ---> Code 
+
 ## AI Enabled Currency Detection System (INR)
 
 ## Project : 
